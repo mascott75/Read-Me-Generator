@@ -1,0 +1,24 @@
+{
+    "name": "readme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mascott75/Read-Me-Generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mascott75/Read-Me-Generator/issues"
+    },
+    "homepage": "https://github.com/mascott75/Read-Me-Generator#readme",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "inquirer": "^7.0.4"
+    }
+}
