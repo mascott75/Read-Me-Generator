@@ -65,16 +65,16 @@ function getGitInfo() {
 
 
 function generateReadMe(answers) {
-    return `Title: ${answers.title} \n \n
-    Description: ${answers.description} \n \n
-    Table of Contents: ${answers.toc} \n \n
-    Instalations: ${answers.instalation} \n \n
-    Usage: ${answers.usage} \n \n
-    License: ${answers.license} \n \n
-    Constributors: ${answers.contributing} \n \n
-    Tests: ${answers.tests} \n \n \n
-    ![profile-pic](${profileImg}) \n
-    Email: ${userEmail}`
+    return `# Title: \n${answers.title} \n \n
+## Description: \n${answers.description} \n \n
+### Table of Contents: \n${answers.toc} \n \n
+#### Instalations: \n${answers.instalation} \n \n
+##### Usage: \n${answers.usage} \n \n
+###### License: \n${answers.license} \n \n
+###### Constributors: \n${answers.contributing} \n \n
+###### Tests: \n${answers.tests} \n \n \n
+![profile-pic](${profileImg}) \n
+# Email: \n${userEmail}`
 }
 
 async function init() {
